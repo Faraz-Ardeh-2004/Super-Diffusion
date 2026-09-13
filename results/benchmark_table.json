@@ -1,0 +1,82 @@
+{
+  "float64_array_mib": 125,
+  "n_particles": 4000,
+  "n_steps": 4096,
+  "rows": [
+    {
+      "ms": 863,
+      "operation": "generate brownian",
+      "peak_mib": 266
+    },
+    {
+      "ms": 2987,
+      "operation": "generate fbm",
+      "peak_mib": 937
+    },
+    {
+      "ms": 471,
+      "operation": "generate sbm",
+      "peak_mib": 266
+    },
+    {
+      "ms": 2472,
+      "operation": "generate ctrw",
+      "peak_mib": 267
+    },
+    {
+      "ms": 6592,
+      "operation": "generate levy_walk",
+      "peak_mib": 1324
+    },
+    {
+      "ms": 4259,
+      "operation": "generate levy_flight",
+      "peak_mib": 750
+    },
+    {
+      "ms": 2669,
+      "operation": "generate ddm",
+      "peak_mib": 641
+    },
+    {
+      "ms": 225,
+      "operation": "squared_displacement",
+      "peak_mib": 375
+    },
+    {
+      "ms": 344,
+      "operation": "ea_msd",
+      "peak_mib": 375
+    },
+    {
+      "ms": 6388,
+      "operation": "ta_msd (32 lags)",
+      "peak_mib": 376
+    },
+    {
+      "ms": 6451,
+      "operation": "eb curve (32 lags)",
+      "peak_mib": 376
+    },
+    {
+      "ms": 4215,
+      "operation": "increment_acf (32)",
+      "peak_mib": 250
+    },
+    {
+      "ms": 166,
+      "operation": "fit_powerlaw (no bootstrap)",
+      "peak_mib": 0
+    },
+    {
+      "ms": 2572,
+      "operation": "fit_powerlaw (200 bootstrap)",
+      "peak_mib": 137
+    },
+    {
+      "ms": 15221,
+      "operation": "moment_spectrum (16 q)",
+      "peak_mib": 250
+    }
+  ]
+}

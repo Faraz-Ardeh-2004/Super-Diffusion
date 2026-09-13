@@ -1,0 +1,30 @@
+{
+  "J": 0.0,
+  "K": 64,
+  "d": 0.25,
+  "n_realizations": 4,
+  "n_steps": 128,
+  "n_values": [
+    20,
+    40
+  ],
+  "note": "J = 0 only: field variance is exactly J-independent by the conservation law (V2), confirmed bit-identical between the J=0.0 and J=0.3 rows of run_step4_n_scaling; simulations saved by dropping the second J go into more realizations per N here.",
+  "results": [
+    {
+      "N": 20,
+      "fraction_near_d_bound": 0.0,
+      "mean": 0.24128390766001362,
+      "variance": 0.011794347763348728,
+      "variance_ci95_high": 0.16396578673924977,
+      "variance_ci95_low": 0.0037849289340726147
+    },
+    {
+      "N": 40,
+      "fraction_near_d_bound": 0.0,
+      "mean": 0.19764154830826702,
+      "variance": 0.005822416798520184,
+      "variance_ci95_high": 0.08094361555624742,
+      "variance_ci95_low": 0.001868474141099302
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "collectivediff"
+version = "0.1.0"
+description = "Inferring collective diffusion regimes from partial agent observation"
+readme = "PROJECT.md"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.24",
+    "scipy>=1.10",
+    "matplotlib>=3.7",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.4",
+    "jupyter>=1.0",
+    "ipykernel>=6.25",
+    "nbstripout>=0.7",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+# Bare `pytest` runs the fast subset (~2.5s) for use during development
+# (PHASE1_REVIEW.md item 5). Statistical tests that need a real Monte Carlo
+# ensemble to demonstrate a result -- validating a generator, measuring a
+# bias, checking convergence -- are marked `slow` and excluded here. Run
+# `pytest -m slow` for that subset before a commit or at the end of a step;
+# running both `pytest` and `pytest -m slow` covers the whole suite.
+addopts = "-q -m 'not slow'"
+markers = [
+    "slow: needs a real Monte Carlo ensemble; excluded from the default run",
+]

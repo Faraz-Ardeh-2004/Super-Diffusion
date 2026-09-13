@@ -1,0 +1,27 @@
+{
+  "J": 0.3,
+  "K": 1024,
+  "burn_in": 4096,
+  "n_particles": 500,
+  "n_steps": 1024,
+  "results": [
+    {
+      "J": 0.3,
+      "d": 0.25,
+      "extended_band_mean_abs_log_ratio": 0.02487048282524296,
+      "n_freq_extended_band": 9,
+      "n_freq_trustworthy_band": 502,
+      "omega_min_trustworthy": 0.06135923151542565,
+      "trustworthy_band_mean_abs_log_ratio": 0.03649914087010597
+    },
+    {
+      "J": 0.3,
+      "d": -0.25,
+      "extended_band_mean_abs_log_ratio": 0.03182708196234048,
+      "n_freq_extended_band": 9,
+      "n_freq_trustworthy_band": 502,
+      "omega_min_trustworthy": 0.06135923151542565,
+      "trustworthy_band_mean_abs_log_ratio": 0.03647501098666981
+    }
+  ]
+}

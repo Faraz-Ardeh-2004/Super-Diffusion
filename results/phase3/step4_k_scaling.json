@@ -1,0 +1,34 @@
+{
+  "burn_in_multiple": 2,
+  "d": 0.25,
+  "loglog_intercept": -18.131564831047175,
+  "loglog_slope_time_vs_k": 2.4926813071929232,
+  "n_particles": 50,
+  "n_steps": 64,
+  "results": [
+    {
+      "K": 256,
+      "burn_in": 512,
+      "elapsed_seconds": 0.025664459011750296,
+      "total_steps": 575
+    },
+    {
+      "K": 1024,
+      "burn_in": 2048,
+      "elapsed_seconds": 0.2718665419961326,
+      "total_steps": 2111
+    },
+    {
+      "K": 4096,
+      "burn_in": 8192,
+      "elapsed_seconds": 4.758652791992063,
+      "total_steps": 8255
+    },
+    {
+      "K": 16384,
+      "burn_in": 32768,
+      "elapsed_seconds": 994.1112372910138,
+      "total_steps": 32831
+    }
+  ]
+}

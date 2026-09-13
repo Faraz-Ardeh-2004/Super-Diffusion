@@ -1,0 +1,24 @@
+# Disposable simulation cache -- never commit.
+data/cache/
+
+# Rendered animations: regenerable from (config, seed), and large. The JSON
+# summaries alongside them in results/ are small and meant to be kept.
+results/media/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Rendered media
+*.mp4
+*.gif
+
+# OS
+.DS_Store

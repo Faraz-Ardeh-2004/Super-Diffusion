@@ -1,0 +1,81 @@
+{
+  "K": 1024,
+  "burn_in": 4096,
+  "d": 0.25,
+  "n_realizations": 10,
+  "n_steps": 1024,
+  "n_values": [
+    50,
+    100,
+    400,
+    1600
+  ],
+  "results": [
+    {
+      "J": 0.0,
+      "points": [
+        {
+          "N": 50,
+          "field_variance": 0.0002481084998958151,
+          "isolated_variance": 0.002491153621839227,
+          "msd_exponent_mean": 1.4635380939811922,
+          "msd_exponent_variance": 0.015076653386904507
+        },
+        {
+          "N": 100,
+          "field_variance": 0.00034046770315442586,
+          "isolated_variance": 0.002491153621839227,
+          "msd_exponent_mean": 1.4846953165615528,
+          "msd_exponent_variance": 0.004793622994367549
+        },
+        {
+          "N": 400,
+          "field_variance": 0.0004170242518990863,
+          "isolated_variance": 0.002491153621839227,
+          "msd_exponent_mean": 1.4925254155292031,
+          "msd_exponent_variance": 0.0011773780586253285
+        },
+        {
+          "N": 1600,
+          "field_variance": 0.0005546908966795488,
+          "isolated_variance": 0.002491153621839227,
+          "msd_exponent_mean": 1.487928115715452,
+          "msd_exponent_variance": 0.0003556564607399991
+        }
+      ]
+    },
+    {
+      "J": 0.3,
+      "points": [
+        {
+          "N": 50,
+          "field_variance": 0.0002481084998889442,
+          "isolated_variance": 0.013821643949861547,
+          "msd_exponent_mean": 1.2616026765993626,
+          "msd_exponent_variance": 0.015553283200804556
+        },
+        {
+          "N": 100,
+          "field_variance": 0.00034046770315708026,
+          "isolated_variance": 0.013925074430127443,
+          "msd_exponent_mean": 1.2597237986517196,
+          "msd_exponent_variance": 0.00497172540845463
+        },
+        {
+          "N": 400,
+          "field_variance": 0.00041702425189908644,
+          "isolated_variance": 0.009594886198193327,
+          "msd_exponent_mean": 1.2706362994110694,
+          "msd_exponent_variance": 0.001131910401102491
+        },
+        {
+          "N": 1600,
+          "field_variance": 0.000554690896637098,
+          "isolated_variance": 0.009631157042264598,
+          "msd_exponent_mean": 1.2660128533853716,
+          "msd_exponent_variance": 0.00042325787351814726
+        }
+      ]
+    }
+  ]
+}

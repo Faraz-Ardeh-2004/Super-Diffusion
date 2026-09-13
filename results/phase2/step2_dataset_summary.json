@@ -1,0 +1,71 @@
+{
+  "class_prior": [
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666,
+    0.16666666666666666
+  ],
+  "dataset_shapes": {
+    "128": [
+      720,
+      19
+    ],
+    "2048": [
+      720,
+      19
+    ],
+    "512": [
+      720,
+      19
+    ],
+    "8192": [
+      720,
+      19
+    ]
+  },
+  "feature_names": [
+    "tamds_exponent",
+    "tamds_ratio",
+    "acf_lag1",
+    "acf_lag2",
+    "acf_lag3",
+    "acf_lag5",
+    "acf_lag10",
+    "ngp_lag1",
+    "ngp_lag5",
+    "ngp_lag10",
+    "immobile_fraction",
+    "mean_gap_length",
+    "max_gap_fraction",
+    "p_var_ratio_p1",
+    "p_var_ratio_p2",
+    "p_var_ratio_p3",
+    "maximal_excursion_ratio",
+    "range_to_std_ratio",
+    "increment_var_ratio"
+  ],
+  "mechanisms": [
+    "brownian",
+    "fbm",
+    "ctrw",
+    "sbm",
+    "ddm",
+    "levy_walk"
+  ],
+  "n_classes": 6,
+  "n_samples_per_class": 120,
+  "timings_seconds": {
+    "128": 0.009165542000118876,
+    "2048": 0.002931291999630048,
+    "512": 0.0030685420006193453,
+    "8192": 0.0036309160004748264
+  },
+  "trajectory_lengths": [
+    128,
+    512,
+    2048,
+    8192
+  ]
+}

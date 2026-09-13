@@ -1,0 +1,369 @@
+{
+  "gradient_boosting_ablation": {
+    "baseline_accuracy": 0.9277777777777778,
+    "classifier_name": "gradient_boosting",
+    "leave_one_out_groups": {
+      "acf": 0.9222222222222223,
+      "excursion": 0.9291666666666667,
+      "immobility": 0.9222222222222223,
+      "ngp": 0.8388888888888889,
+      "nonstationarity": 0.8569444444444444,
+      "p_variation": 0.9319444444444445,
+      "tamds": 0.9291666666666667
+    },
+    "leave_one_out_individual": {
+      "acf_lag1": 0.9222222222222223,
+      "acf_lag10": 0.9263888888888889,
+      "acf_lag2": 0.9263888888888889,
+      "acf_lag3": 0.9291666666666667,
+      "acf_lag5": 0.9305555555555556,
+      "immobile_fraction": 0.9277777777777778,
+      "increment_var_ratio": 0.8569444444444444,
+      "max_gap_fraction": 0.9291666666666667,
+      "maximal_excursion_ratio": 0.9291666666666667,
+      "mean_gap_length": 0.9291666666666667,
+      "ngp_lag1": 0.925,
+      "ngp_lag10": 0.9277777777777778,
+      "ngp_lag5": 0.9291666666666667,
+      "p_var_ratio_p1": 0.9305555555555556,
+      "p_var_ratio_p2": 0.9305555555555556,
+      "p_var_ratio_p3": 0.9291666666666667,
+      "range_to_std_ratio": 0.9222222222222223,
+      "tamds_exponent": 0.9291666666666667,
+      "tamds_ratio": 0.9291666666666667
+    },
+    "n_steps": 2048,
+    "single_feature_groups": {
+      "acf": 0.6083333333333333,
+      "excursion": 0.39444444444444443,
+      "immobility": 0.3333333333333333,
+      "ngp": 0.7152777777777778,
+      "nonstationarity": 0.4097222222222222,
+      "p_variation": 0.6833333333333333,
+      "tamds": 0.4125
+    },
+    "single_feature_individual": {
+      "acf_lag1": 0.5013888888888889,
+      "acf_lag10": 0.36666666666666664,
+      "acf_lag2": 0.4513888888888889,
+      "acf_lag3": 0.3902777777777778,
+      "acf_lag5": 0.3819444444444444,
+      "immobile_fraction": 0.3333333333333333,
+      "increment_var_ratio": 0.4097222222222222,
+      "max_gap_fraction": 0.3333333333333333,
+      "maximal_excursion_ratio": 0.36527777777777776,
+      "mean_gap_length": 0.3333333333333333,
+      "ngp_lag1": 0.7263888888888889,
+      "ngp_lag10": 0.6597222222222222,
+      "ngp_lag5": 0.6902777777777778,
+      "p_var_ratio_p1": 0.5444444444444444,
+      "p_var_ratio_p2": 0.49166666666666664,
+      "p_var_ratio_p3": 0.5513888888888889,
+      "range_to_std_ratio": 0.23333333333333334,
+      "tamds_exponent": 0.3861111111111111,
+      "tamds_ratio": 0.4027777777777778
+    }
+  },
+  "logistic_regression_ablation": {
+    "baseline_accuracy": 0.6944444444444444,
+    "classifier_name": "logistic_regression",
+    "leave_one_out_groups": {
+      "acf": 0.6861111111111111,
+      "excursion": 0.7069444444444445,
+      "immobility": 0.6722222222222223,
+      "ngp": 0.6611111111111111,
+      "nonstationarity": 0.6944444444444444,
+      "p_variation": 0.6347222222222222,
+      "tamds": 0.6819444444444445
+    },
+    "leave_one_out_individual": {
+      "acf_lag1": 0.6902777777777778,
+      "acf_lag10": 0.6902777777777778,
+      "acf_lag2": 0.6902777777777778,
+      "acf_lag3": 0.6958333333333333,
+      "acf_lag5": 0.6847222222222222,
+      "immobile_fraction": 0.6902777777777778,
+      "increment_var_ratio": 0.6944444444444444,
+      "max_gap_fraction": 0.6930555555555555,
+      "maximal_excursion_ratio": 0.6958333333333333,
+      "mean_gap_length": 0.6944444444444444,
+      "ngp_lag1": 0.6916666666666667,
+      "ngp_lag10": 0.6847222222222222,
+      "ngp_lag5": 0.6861111111111111,
+      "p_var_ratio_p1": 0.6458333333333334,
+      "p_var_ratio_p2": 0.6875,
+      "p_var_ratio_p3": 0.6888888888888889,
+      "range_to_std_ratio": 0.6944444444444444,
+      "tamds_exponent": 0.6805555555555556,
+      "tamds_ratio": 0.6888888888888889
+    },
+    "n_steps": 2048,
+    "single_feature_groups": {
+      "acf": 0.4041666666666667,
+      "excursion": 0.3194444444444444,
+      "immobility": 0.3333333333333333,
+      "ngp": 0.4930555555555556,
+      "nonstationarity": 0.28194444444444444,
+      "p_variation": 0.5694444444444444,
+      "tamds": 0.3861111111111111
+    },
+    "single_feature_individual": {
+      "acf_lag1": 0.3486111111111111,
+      "acf_lag10": 0.29444444444444445,
+      "acf_lag2": 0.37222222222222223,
+      "acf_lag3": 0.3416666666666667,
+      "acf_lag5": 0.325,
+      "immobile_fraction": 0.3333333333333333,
+      "increment_var_ratio": 0.28194444444444444,
+      "max_gap_fraction": 0.3333333333333333,
+      "maximal_excursion_ratio": 0.27361111111111114,
+      "mean_gap_length": 0.3138888888888889,
+      "ngp_lag1": 0.3527777777777778,
+      "ngp_lag10": 0.4666666666666667,
+      "ngp_lag5": 0.4736111111111111,
+      "p_var_ratio_p1": 0.42777777777777776,
+      "p_var_ratio_p2": 0.3236111111111111,
+      "p_var_ratio_p3": 0.5083333333333333,
+      "range_to_std_ratio": 0.2625,
+      "tamds_exponent": 0.38055555555555554,
+      "tamds_ratio": 0.3375
+    }
+  },
+  "n_steps": 2048,
+  "pairwise_rankings": {
+    "ddm_vs_brownian": [
+      {
+        "accuracy": 1.0,
+        "feature": "ngp_lag1"
+      },
+      {
+        "accuracy": 1.0,
+        "feature": "ngp_lag5"
+      },
+      {
+        "accuracy": 1.0,
+        "feature": "ngp_lag10"
+      },
+      {
+        "accuracy": 0.675,
+        "feature": "p_var_ratio_p1"
+      },
+      {
+        "accuracy": 0.625,
+        "feature": "increment_var_ratio"
+      },
+      {
+        "accuracy": 0.5458333333333333,
+        "feature": "acf_lag1"
+      },
+      {
+        "accuracy": 0.5333333333333333,
+        "feature": "acf_lag3"
+      },
+      {
+        "accuracy": 0.5291666666666667,
+        "feature": "range_to_std_ratio"
+      },
+      {
+        "accuracy": 0.525,
+        "feature": "p_var_ratio_p2"
+      },
+      {
+        "accuracy": 0.5041666666666667,
+        "feature": "tamds_exponent"
+      },
+      {
+        "accuracy": 0.5041666666666667,
+        "feature": "tamds_ratio"
+      },
+      {
+        "accuracy": 0.5041666666666667,
+        "feature": "acf_lag10"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "immobile_fraction"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "mean_gap_length"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "max_gap_fraction"
+      },
+      {
+        "accuracy": 0.49166666666666664,
+        "feature": "acf_lag5"
+      },
+      {
+        "accuracy": 0.4708333333333333,
+        "feature": "acf_lag2"
+      },
+      {
+        "accuracy": 0.45416666666666666,
+        "feature": "p_var_ratio_p3"
+      },
+      {
+        "accuracy": 0.45416666666666666,
+        "feature": "maximal_excursion_ratio"
+      }
+    ],
+    "fbm_vs_ctrw": [
+      {
+        "accuracy": 1.0,
+        "feature": "immobile_fraction"
+      },
+      {
+        "accuracy": 0.9791666666666666,
+        "feature": "max_gap_fraction"
+      },
+      {
+        "accuracy": 0.9041666666666667,
+        "feature": "p_var_ratio_p1"
+      },
+      {
+        "accuracy": 0.8916666666666667,
+        "feature": "ngp_lag5"
+      },
+      {
+        "accuracy": 0.8708333333333333,
+        "feature": "ngp_lag1"
+      },
+      {
+        "accuracy": 0.8708333333333333,
+        "feature": "ngp_lag10"
+      },
+      {
+        "accuracy": 0.8458333333333333,
+        "feature": "mean_gap_length"
+      },
+      {
+        "accuracy": 0.7791666666666667,
+        "feature": "p_var_ratio_p3"
+      },
+      {
+        "accuracy": 0.7458333333333333,
+        "feature": "increment_var_ratio"
+      },
+      {
+        "accuracy": 0.7166666666666667,
+        "feature": "tamds_ratio"
+      },
+      {
+        "accuracy": 0.6666666666666666,
+        "feature": "acf_lag1"
+      },
+      {
+        "accuracy": 0.6583333333333333,
+        "feature": "p_var_ratio_p2"
+      },
+      {
+        "accuracy": 0.65,
+        "feature": "acf_lag5"
+      },
+      {
+        "accuracy": 0.6458333333333334,
+        "feature": "range_to_std_ratio"
+      },
+      {
+        "accuracy": 0.6291666666666667,
+        "feature": "maximal_excursion_ratio"
+      },
+      {
+        "accuracy": 0.625,
+        "feature": "acf_lag3"
+      },
+      {
+        "accuracy": 0.6125,
+        "feature": "acf_lag10"
+      },
+      {
+        "accuracy": 0.5875,
+        "feature": "acf_lag2"
+      },
+      {
+        "accuracy": 0.5416666666666666,
+        "feature": "tamds_exponent"
+      }
+    ],
+    "sbm_vs_brownian": [
+      {
+        "accuracy": 0.7583333333333333,
+        "feature": "ngp_lag5"
+      },
+      {
+        "accuracy": 0.7375,
+        "feature": "increment_var_ratio"
+      },
+      {
+        "accuracy": 0.725,
+        "feature": "ngp_lag10"
+      },
+      {
+        "accuracy": 0.6875,
+        "feature": "ngp_lag1"
+      },
+      {
+        "accuracy": 0.5875,
+        "feature": "tamds_ratio"
+      },
+      {
+        "accuracy": 0.5666666666666667,
+        "feature": "tamds_exponent"
+      },
+      {
+        "accuracy": 0.5375,
+        "feature": "acf_lag1"
+      },
+      {
+        "accuracy": 0.5166666666666667,
+        "feature": "acf_lag10"
+      },
+      {
+        "accuracy": 0.5125,
+        "feature": "p_var_ratio_p2"
+      },
+      {
+        "accuracy": 0.5125,
+        "feature": "range_to_std_ratio"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "immobile_fraction"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "mean_gap_length"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "max_gap_fraction"
+      },
+      {
+        "accuracy": 0.5,
+        "feature": "maximal_excursion_ratio"
+      },
+      {
+        "accuracy": 0.4875,
+        "feature": "acf_lag2"
+      },
+      {
+        "accuracy": 0.4875,
+        "feature": "p_var_ratio_p1"
+      },
+      {
+        "accuracy": 0.4875,
+        "feature": "p_var_ratio_p3"
+      },
+      {
+        "accuracy": 0.4791666666666667,
+        "feature": "acf_lag3"
+      },
+      {
+        "accuracy": 0.4583333333333333,
+        "feature": "acf_lag5"
+      }
+    ]
+  }
+}
